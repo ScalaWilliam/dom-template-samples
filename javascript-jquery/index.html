@@ -1,0 +1,18 @@
+<html>
+
+<head>
+  <title>Title</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+</head>
+<body>
+  <header>
+    <h2>Stuff for: <a href="/">William</a></h2>
+  </header>
+  <script type="text/javascript">
+    var h2 = $("h2").first();
+    var newH2 = h2.clone(true);
+    newH2.children("a").text("From jQuery");
+    newH2.insertAfter(h2);
+  </script>
+</body>
+</html>

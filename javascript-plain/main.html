@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <title>Title</title>
+</head>
+<body>
+  <header>
+    <h2>Stuff for: <a href="/">William</a></h2>
+  </header>
+  <script type="text/javascript">
+    var h2 = document.querySelector("h2");
+    var newH2 = h2.cloneNode(true);
+    newH2.querySelector("a").textContent = "From JavaScript";
+    h2.parentNode.insertBefore(newH2, h2.nextSibling);
+  </script>
+</body>
+</html>

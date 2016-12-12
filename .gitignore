@@ -1,0 +1,8 @@
+.cache
+venv
+node_modules
+target
+.idea
+*.iml
+.cache
+__pycache__
